@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#nav-bar {
+    background-color: rgb(152, 81, 31);
+    height: 5em;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+#nav-list {
+    list-style: none;
+    margin-right: 3em;
+}
+
+li {
+    margin-left: 15px;
+    display: inline;
+    font-family: monospace,'Courier New', Courier;
+    font-size: 20px;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    background-image:
+        linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+        url("/src/img/background.jpg");
+    height: 45rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#main-header {
+    color: whitesmoke;
+    font-family: monospace,'Courier New', Courier;
+    font-size: 48px;
+}
+p {
+    font-family: monospace, 'Courier New', Courier;
+    color: white;
+}
+
+#shop {
+    background-color: rgb(237, 229, 213);
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 100px;
+    row-gap: 40px;
+    padding: 50px;
+}
+
+.shop-item {
+    background-color: whitesmoke;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 8px;
+}
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 30px;
+    font-family: monospace, 'Courier New', Courier;
+}
+
+#contact-header {
+    font-size: 40px;
+}
+.contact {
+    text-decoration: none;
+    color: black;
+}
+
+.extra-coarse {
+    background-image: url("/src/img/extra-coarse.png");
+}
+.coarse {
+    background-image: url("/src/img/coarse.png");
+}
+.medium-coarse {
+    background-image: url("/src/img/medium-coarse.png");
+}
+.medium {
+    background-image: url("/src/img/medium.png");
+}
+.medium-fine {
+    background-image: url("/src/img/medium-fine.png");
+}
+.fine {
+    background-image: url("/src/img/fine.png");
+}
+.extra-fine {
+    background-image: url("/src/img/extra-fine.png");
+}
